@@ -16,6 +16,18 @@
 		3CAD2A162A256F4600BF844A /* YOLOv8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A152A256F4600BF844A /* YOLOv8Tests.swift */; };
 		3CAD2A202A256F4600BF844A /* YOLOv8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A1F2A256F4600BF844A /* YOLOv8UITests.swift */; };
 		3CAD2A222A256F4600BF844A /* YOLOv8UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A212A256F4600BF844A /* YOLOv8UITestsLaunchTests.swift */; };
+		3CAD2A332A256F8800BF844A /* YOLOv8s-seg.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A2F2A256F8400BF844A /* YOLOv8s-seg.mlmodel */; };
+		3CAD2A342A256F8800BF844A /* YOLOv8s-seg.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A2F2A256F8400BF844A /* YOLOv8s-seg.mlmodel */; };
+		3CAD2A352A256F8800BF844A /* YOLOv8s-seg.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A2F2A256F8400BF844A /* YOLOv8s-seg.mlmodel */; };
+		3CAD2A362A256F8800BF844A /* YOLOv8s-cls.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A302A256F8500BF844A /* YOLOv8s-cls.mlmodel */; };
+		3CAD2A372A256F8800BF844A /* YOLOv8s-cls.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A302A256F8500BF844A /* YOLOv8s-cls.mlmodel */; };
+		3CAD2A382A256F8800BF844A /* YOLOv8s-cls.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A302A256F8500BF844A /* YOLOv8s-cls.mlmodel */; };
+		3CAD2A392A256F8800BF844A /* YOLOv8n.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A312A256F8600BF844A /* YOLOv8n.mlmodel */; };
+		3CAD2A3A2A256F8800BF844A /* YOLOv8n.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A312A256F8600BF844A /* YOLOv8n.mlmodel */; };
+		3CAD2A3B2A256F8800BF844A /* YOLOv8n.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A312A256F8600BF844A /* YOLOv8n.mlmodel */; };
+		3CAD2A3C2A256F8800BF844A /* YOLOv8s.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A322A256F8800BF844A /* YOLOv8s.mlmodel */; };
+		3CAD2A3D2A256F8800BF844A /* YOLOv8s.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A322A256F8800BF844A /* YOLOv8s.mlmodel */; };
+		3CAD2A3E2A256F8800BF844A /* YOLOv8s.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A322A256F8800BF844A /* YOLOv8s.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,10 @@
 		3CAD2A1B2A256F4600BF844A /* YOLOv8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOLOv8UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CAD2A1F2A256F4600BF844A /* YOLOv8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOv8UITests.swift; sourceTree = "<group>"; };
 		3CAD2A212A256F4600BF844A /* YOLOv8UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOv8UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CAD2A2F2A256F8400BF844A /* YOLOv8s-seg.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "YOLOv8s-seg.mlmodel"; sourceTree = "<group>"; };
+		3CAD2A302A256F8500BF844A /* YOLOv8s-cls.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "YOLOv8s-cls.mlmodel"; sourceTree = "<group>"; };
+		3CAD2A312A256F8600BF844A /* YOLOv8n.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv8n.mlmodel; sourceTree = "<group>"; };
+		3CAD2A322A256F8800BF844A /* YOLOv8s.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv8s.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,7 @@
 		3CAD29F22A256F4100BF844A = {
 			isa = PBXGroup;
 			children = (
+				3CAD2A2E2A256F7100BF844A /* YOLOv8Models */,
 				3CAD29FD2A256F4100BF844A /* YOLOv8 */,
 				3CAD2A142A256F4600BF844A /* YOLOv8Tests */,
 				3CAD2A1E2A256F4600BF844A /* YOLOv8UITests */,
@@ -133,6 +150,17 @@
 				3CAD2A212A256F4600BF844A /* YOLOv8UITestsLaunchTests.swift */,
 			);
 			path = YOLOv8UITests;
+			sourceTree = "<group>";
+		};
+		3CAD2A2E2A256F7100BF844A /* YOLOv8Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CAD2A312A256F8600BF844A /* YOLOv8n.mlmodel */,
+				3CAD2A302A256F8500BF844A /* YOLOv8s-cls.mlmodel */,
+				3CAD2A2F2A256F8400BF844A /* YOLOv8s-seg.mlmodel */,
+				3CAD2A322A256F8800BF844A /* YOLOv8s.mlmodel */,
+			);
+			path = YOLOv8Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CAD2A392A256F8800BF844A /* YOLOv8n.mlmodel in Sources */,
 				3CAD2A042A256F4100BF844A /* YOLOv8.xcdatamodeld in Sources */,
 				3CAD29FF2A256F4100BF844A /* YOLOv8App.swift in Sources */,
+				3CAD2A3C2A256F8800BF844A /* YOLOv8s.mlmodel in Sources */,
 				3CAD2A062A256F4100BF844A /* ContentView.swift in Sources */,
 				3CAD2A012A256F4100BF844A /* Persistence.swift in Sources */,
+				3CAD2A362A256F8800BF844A /* YOLOv8s-cls.mlmodel in Sources */,
+				3CAD2A332A256F8800BF844A /* YOLOv8s-seg.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CAD2A162A256F4600BF844A /* YOLOv8Tests.swift in Sources */,
+				3CAD2A372A256F8800BF844A /* YOLOv8s-cls.mlmodel in Sources */,
+				3CAD2A3D2A256F8800BF844A /* YOLOv8s.mlmodel in Sources */,
+				3CAD2A3A2A256F8800BF844A /* YOLOv8n.mlmodel in Sources */,
+				3CAD2A342A256F8800BF844A /* YOLOv8s-seg.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +320,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CAD2A352A256F8800BF844A /* YOLOv8s-seg.mlmodel in Sources */,
 				3CAD2A202A256F4600BF844A /* YOLOv8UITests.swift in Sources */,
+				3CAD2A3B2A256F8800BF844A /* YOLOv8n.mlmodel in Sources */,
+				3CAD2A382A256F8800BF844A /* YOLOv8s-cls.mlmodel in Sources */,
 				3CAD2A222A256F4600BF844A /* YOLOv8UITestsLaunchTests.swift in Sources */,
+				3CAD2A3E2A256F8800BF844A /* YOLOv8s.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
