@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CAD29FF2A256F4100BF844A /* YOLOv8App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD29FE2A256F4100BF844A /* YOLOv8App.swift */; };
+		3CAD2A012A256F4100BF844A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A002A256F4100BF844A /* Persistence.swift */; };
+		3CAD2A042A256F4100BF844A /* YOLOv8.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A022A256F4100BF844A /* YOLOv8.xcdatamodeld */; };
+		3CAD2A062A256F4100BF844A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A052A256F4100BF844A /* ContentView.swift */; };
+		3CAD2A082A256F4500BF844A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CAD2A072A256F4500BF844A /* Assets.xcassets */; };
+		3CAD2A0C2A256F4500BF844A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CAD2A0B2A256F4500BF844A /* Preview Assets.xcassets */; };
+		3CAD2A162A256F4600BF844A /* YOLOv8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A152A256F4600BF844A /* YOLOv8Tests.swift */; };
+		3CAD2A202A256F4600BF844A /* YOLOv8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A1F2A256F4600BF844A /* YOLOv8UITests.swift */; };
+		3CAD2A222A256F4600BF844A /* YOLOv8UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A212A256F4600BF844A /* YOLOv8UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CAD2A122A256F4600BF844A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CAD29F32A256F4100BF844A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CAD29FA2A256F4100BF844A;
+			remoteInfo = YOLOv8;
+		};
+		3CAD2A1C2A256F4600BF844A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CAD29F32A256F4100BF844A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CAD29FA2A256F4100BF844A;
+			remoteInfo = YOLOv8;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CAD29FB2A256F4100BF844A /* YOLOv8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOLOv8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAD29FE2A256F4100BF844A /* YOLOv8App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOv8App.swift; sourceTree = "<group>"; };
+		3CAD2A002A256F4100BF844A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3CAD2A032A256F4100BF844A /* YOLOv8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YOLOv8.xcdatamodel; sourceTree = "<group>"; };
+		3CAD2A052A256F4100BF844A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CAD2A072A256F4500BF844A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CAD2A092A256F4500BF844A /* YOLOv8.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YOLOv8.entitlements; sourceTree = "<group>"; };
+		3CAD2A0B2A256F4500BF844A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CAD2A112A256F4600BF844A /* YOLOv8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOLOv8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAD2A152A256F4600BF844A /* YOLOv8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOv8Tests.swift; sourceTree = "<group>"; };
+		3CAD2A1B2A256F4600BF844A /* YOLOv8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOLOv8UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAD2A1F2A256F4600BF844A /* YOLOv8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOv8UITests.swift; sourceTree = "<group>"; };
+		3CAD2A212A256F4600BF844A /* YOLOv8UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOv8UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CAD29F82A256F4100BF844A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAD2A0E2A256F4600BF844A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAD2A182A256F4600BF844A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CAD29F22A256F4100BF844A = {
+			isa = PBXGroup;
+			children = (
+				3CAD29FD2A256F4100BF844A /* YOLOv8 */,
+				3CAD2A142A256F4600BF844A /* YOLOv8Tests */,
+				3CAD2A1E2A256F4600BF844A /* YOLOv8UITests */,
+				3CAD29FC2A256F4100BF844A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CAD29FC2A256F4100BF844A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CAD29FB2A256F4100BF844A /* YOLOv8.app */,
+				3CAD2A112A256F4600BF844A /* YOLOv8Tests.xctest */,
+				3CAD2A1B2A256F4600BF844A /* YOLOv8UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CAD29FD2A256F4100BF844A /* YOLOv8 */ = {
+			isa = PBXGroup;
+			children = (
+				3CAD29FE2A256F4100BF844A /* YOLOv8App.swift */,
+				3CAD2A002A256F4100BF844A /* Persistence.swift */,
+				3CAD2A052A256F4100BF844A /* ContentView.swift */,
+				3CAD2A072A256F4500BF844A /* Assets.xcassets */,
+				3CAD2A092A256F4500BF844A /* YOLOv8.entitlements */,
+				3CAD2A022A256F4100BF844A /* YOLOv8.xcdatamodeld */,
+				3CAD2A0A2A256F4500BF844A /* Preview Content */,
+			);
+			path = YOLOv8;
+			sourceTree = "<group>";
+		};
+		3CAD2A0A2A256F4500BF844A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CAD2A0B2A256F4500BF844A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CAD2A142A256F4600BF844A /* YOLOv8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3CAD2A152A256F4600BF844A /* YOLOv8Tests.swift */,
+			);
+			path = YOLOv8Tests;
+			sourceTree = "<group>";
+		};
+		3CAD2A1E2A256F4600BF844A /* YOLOv8UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CAD2A1F2A256F4600BF844A /* YOLOv8UITests.swift */,
+				3CAD2A212A256F4600BF844A /* YOLOv8UITestsLaunchTests.swift */,
+			);
+			path = YOLOv8UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CAD29FA2A256F4100BF844A /* YOLOv8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAD2A252A256F4600BF844A /* Build configuration list for PBXNativeTarget "YOLOv8" */;
+			buildPhases = (
+				3CAD29F72A256F4100BF844A /* Sources */,
+				3CAD29F82A256F4100BF844A /* Frameworks */,
+				3CAD29F92A256F4100BF844A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YOLOv8;
+			productName = YOLOv8;
+			productReference = 3CAD29FB2A256F4100BF844A /* YOLOv8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CAD2A102A256F4600BF844A /* YOLOv8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAD2A282A256F4600BF844A /* Build configuration list for PBXNativeTarget "YOLOv8Tests" */;
+			buildPhases = (
+				3CAD2A0D2A256F4600BF844A /* Sources */,
+				3CAD2A0E2A256F4600BF844A /* Frameworks */,
+				3CAD2A0F2A256F4600BF844A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CAD2A132A256F4600BF844A /* PBXTargetDependency */,
+			);
+			name = YOLOv8Tests;
+			productName = YOLOv8Tests;
+			productReference = 3CAD2A112A256F4600BF844A /* YOLOv8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CAD2A1A2A256F4600BF844A /* YOLOv8UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAD2A2B2A256F4600BF844A /* Build configuration list for PBXNativeTarget "YOLOv8UITests" */;
+			buildPhases = (
+				3CAD2A172A256F4600BF844A /* Sources */,
+				3CAD2A182A256F4600BF844A /* Frameworks */,
+				3CAD2A192A256F4600BF844A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CAD2A1D2A256F4600BF844A /* PBXTargetDependency */,
+			);
+			name = YOLOv8UITests;
+			productName = YOLOv8UITests;
+			productReference = 3CAD2A1B2A256F4600BF844A /* YOLOv8UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CAD29F32A256F4100BF844A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3CAD29FA2A256F4100BF844A = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					3CAD2A102A256F4600BF844A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3CAD29FA2A256F4100BF844A;
+					};
+					3CAD2A1A2A256F4600BF844A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3CAD29FA2A256F4100BF844A;
+					};
+				};
+			};
+			buildConfigurationList = 3CAD29F62A256F4100BF844A /* Build configuration list for PBXProject "YOLOv8" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CAD29F22A256F4100BF844A;
+			productRefGroup = 3CAD29FC2A256F4100BF844A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CAD29FA2A256F4100BF844A /* YOLOv8 */,
+				3CAD2A102A256F4600BF844A /* YOLOv8Tests */,
+				3CAD2A1A2A256F4600BF844A /* YOLOv8UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CAD29F92A256F4100BF844A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAD2A0C2A256F4500BF844A /* Preview Assets.xcassets in Resources */,
+				3CAD2A082A256F4500BF844A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAD2A0F2A256F4600BF844A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAD2A192A256F4600BF844A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CAD29F72A256F4100BF844A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAD2A042A256F4100BF844A /* YOLOv8.xcdatamodeld in Sources */,
+				3CAD29FF2A256F4100BF844A /* YOLOv8App.swift in Sources */,
+				3CAD2A062A256F4100BF844A /* ContentView.swift in Sources */,
+				3CAD2A012A256F4100BF844A /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAD2A0D2A256F4600BF844A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAD2A162A256F4600BF844A /* YOLOv8Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAD2A172A256F4600BF844A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAD2A202A256F4600BF844A /* YOLOv8UITests.swift in Sources */,
+				3CAD2A222A256F4600BF844A /* YOLOv8UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CAD2A132A256F4600BF844A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CAD29FA2A256F4100BF844A /* YOLOv8 */;
+			targetProxy = 3CAD2A122A256F4600BF844A /* PBXContainerItemProxy */;
+		};
+		3CAD2A1D2A256F4600BF844A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CAD29FA2A256F4100BF844A /* YOLOv8 */;
+			targetProxy = 3CAD2A1C2A256F4600BF844A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CAD2A232A256F4600BF844A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CAD2A242A256F4600BF844A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3CAD2A262A256F4600BF844A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YOLOv8/YOLOv8.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YOLOv8/Preview Content\"";
+				DEVELOPMENT_TEAM = MKA944ZRT8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinshub.YOLOv8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CAD2A272A256F4600BF844A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YOLOv8/YOLOv8.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YOLOv8/Preview Content\"";
+				DEVELOPMENT_TEAM = MKA944ZRT8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinshub.YOLOv8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CAD2A292A256F4600BF844A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MKA944ZRT8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinshub.YOLOv8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YOLOv8.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YOLOv8";
+			};
+			name = Debug;
+		};
+		3CAD2A2A2A256F4600BF844A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MKA944ZRT8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinshub.YOLOv8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YOLOv8.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YOLOv8";
+			};
+			name = Release;
+		};
+		3CAD2A2C2A256F4600BF844A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MKA944ZRT8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinshub.YOLOv8UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YOLOv8;
+			};
+			name = Debug;
+		};
+		3CAD2A2D2A256F4600BF844A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MKA944ZRT8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinshub.YOLOv8UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YOLOv8;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CAD29F62A256F4100BF844A /* Build configuration list for PBXProject "YOLOv8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAD2A232A256F4600BF844A /* Debug */,
+				3CAD2A242A256F4600BF844A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAD2A252A256F4600BF844A /* Build configuration list for PBXNativeTarget "YOLOv8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAD2A262A256F4600BF844A /* Debug */,
+				3CAD2A272A256F4600BF844A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAD2A282A256F4600BF844A /* Build configuration list for PBXNativeTarget "YOLOv8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAD2A292A256F4600BF844A /* Debug */,
+				3CAD2A2A2A256F4600BF844A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAD2A2B2A256F4600BF844A /* Build configuration list for PBXNativeTarget "YOLOv8UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAD2A2C2A256F4600BF844A /* Debug */,
+				3CAD2A2D2A256F4600BF844A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3CAD2A022A256F4100BF844A /* YOLOv8.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3CAD2A032A256F4100BF844A /* YOLOv8.xcdatamodel */,
+			);
+			currentVersion = 3CAD2A032A256F4100BF844A /* YOLOv8.xcdatamodel */;
+			path = YOLOv8.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3CAD29F32A256F4100BF844A /* Project object */;
+}
