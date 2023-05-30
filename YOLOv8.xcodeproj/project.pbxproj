@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C660A3D2A259DE7001D11B2 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C660A3C2A259DE7001D11B2 /* AlertHelper.swift */; };
+		3C660A3F2A259F40001D11B2 /* SceneHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C660A3E2A259F40001D11B2 /* SceneHelper.swift */; };
 		3CAD29FF2A256F4100BF844A /* YOLOv8App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD29FE2A256F4100BF844A /* YOLOv8App.swift */; };
 		3CAD2A012A256F4100BF844A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A002A256F4100BF844A /* Persistence.swift */; };
 		3CAD2A042A256F4100BF844A /* YOLOv8.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A022A256F4100BF844A /* YOLOv8.xcdatamodeld */; };
@@ -28,6 +30,7 @@
 		3CAD2A3C2A256F8800BF844A /* YOLOv8s.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A322A256F8800BF844A /* YOLOv8s.mlmodel */; };
 		3CAD2A3D2A256F8800BF844A /* YOLOv8s.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A322A256F8800BF844A /* YOLOv8s.mlmodel */; };
 		3CAD2A3E2A256F8800BF844A /* YOLOv8s.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A322A256F8800BF844A /* YOLOv8s.mlmodel */; };
+		3CAD2A402A25757100BF844A /* CaptureVideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2A3F2A25757100BF844A /* CaptureVideoPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C660A3C2A259DE7001D11B2 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		3C660A3E2A259F40001D11B2 /* SceneHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneHelper.swift; sourceTree = "<group>"; };
 		3CAD29FB2A256F4100BF844A /* YOLOv8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOLOv8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CAD29FE2A256F4100BF844A /* YOLOv8App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOv8App.swift; sourceTree = "<group>"; };
 		3CAD2A002A256F4100BF844A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -65,6 +70,7 @@
 		3CAD2A302A256F8500BF844A /* YOLOv8s-cls.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "YOLOv8s-cls.mlmodel"; sourceTree = "<group>"; };
 		3CAD2A312A256F8600BF844A /* YOLOv8n.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv8n.mlmodel; sourceTree = "<group>"; };
 		3CAD2A322A256F8800BF844A /* YOLOv8s.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv8s.mlmodel; sourceTree = "<group>"; };
+		3CAD2A3F2A25757100BF844A /* CaptureVideoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureVideoPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C660A3B2A259C19001D11B2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3C660A3C2A259DE7001D11B2 /* AlertHelper.swift */,
+				3C660A3E2A259F40001D11B2 /* SceneHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		3CAD29F22A256F4100BF844A = {
 			isa = PBXGroup;
 			children = (
@@ -116,9 +131,11 @@
 		3CAD29FD2A256F4100BF844A /* YOLOv8 */ = {
 			isa = PBXGroup;
 			children = (
+				3C660A3B2A259C19001D11B2 /* Helpers */,
 				3CAD29FE2A256F4100BF844A /* YOLOv8App.swift */,
 				3CAD2A002A256F4100BF844A /* Persistence.swift */,
 				3CAD2A052A256F4100BF844A /* ContentView.swift */,
+				3CAD2A3F2A25757100BF844A /* CaptureVideoPreviewView.swift */,
 				3CAD2A072A256F4500BF844A /* Assets.xcassets */,
 				3CAD2A092A256F4500BF844A /* YOLOv8.entitlements */,
 				3CAD2A022A256F4100BF844A /* YOLOv8.xcdatamodeld */,
@@ -295,11 +312,14 @@
 			files = (
 				3CAD2A392A256F8800BF844A /* YOLOv8n.mlmodel in Sources */,
 				3CAD2A042A256F4100BF844A /* YOLOv8.xcdatamodeld in Sources */,
+				3CAD2A402A25757100BF844A /* CaptureVideoPreviewView.swift in Sources */,
 				3CAD29FF2A256F4100BF844A /* YOLOv8App.swift in Sources */,
 				3CAD2A3C2A256F8800BF844A /* YOLOv8s.mlmodel in Sources */,
+				3C660A3F2A259F40001D11B2 /* SceneHelper.swift in Sources */,
 				3CAD2A062A256F4100BF844A /* ContentView.swift in Sources */,
 				3CAD2A012A256F4100BF844A /* Persistence.swift in Sources */,
 				3CAD2A362A256F8800BF844A /* YOLOv8s-cls.mlmodel in Sources */,
+				3C660A3D2A259DE7001D11B2 /* AlertHelper.swift in Sources */,
 				3CAD2A332A256F8800BF844A /* YOLOv8s-seg.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +487,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Require Camera for Testing";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -485,7 +506,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jinshub.YOLOv8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -505,6 +528,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Require Camera for Testing";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -523,7 +547,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jinshub.YOLOv8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
