@@ -22,7 +22,7 @@ struct CaptureVideoPreviewView: UIViewControllerRepresentable {
 }
 
 class CaptureVideoPreviewViewController: UIViewController {
-    private var captureSession: AVCaptureSession!
+    private var captureSession: AVCaptureSession = AVCaptureSession()
     private var previewLayer: AVCaptureVideoPreviewLayer!
     
     override func viewDidLoad() {
@@ -35,7 +35,6 @@ class CaptureVideoPreviewViewController: UIViewController {
 
         do {
             let videoInput = try AVCaptureDeviceInput(device: captureDevice)
-            captureSession = AVCaptureSession()
             if captureSession.canAddInput(videoInput) {
                 captureSession.addInput(videoInput)
             }
